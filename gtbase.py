@@ -1,11 +1,12 @@
 import math
+from reversi_structure import *
 
 #No heuristic
 def _zero_hfn(node):
 	return 0
 
 class GameTreeSearch:
-	def __init__(self, trace_level, search_strategy = 'DFS', depth_limit = 0):
+	def __init__(self, trace_level, depth_limit = 0, search_strategy = 'DFS'):
 		self.search_strategy = search_strategy
 		self.depth_limit = depth_limit
 		self.trace = trace_level
@@ -15,6 +16,7 @@ class GameTreeSearch:
 		self.heur_fun = heur_fun
 		self.prune = prune
 		self.nodes_pruned = 0
+		self.nodes_visited = 0
 		#For turn 1 is MAX, -1 is MIN
 		if self.trace == 1:
 			print('TRACE: Running search on node {}'.format(top_node))
@@ -37,21 +39,37 @@ class GameTreeSearch:
 	def gtRecurse(self, node, level, player, alpha=(-1*float("inf")), beta=float("inf")):
 		pruned = False
 
+		#Get node successors (note, will be a function rather than an attribute)
+		node.generateChildNodes()
+		if player == 1:	#White is MAX
+			children = node.getChildrenWhite()
+		else: #Black is MIN
+			children = node.getChildrenBlack()
+
+		#Print board
+		board_state = node.getReversiBoardObject()
+		if self.trace == 1:
+			board_state.printBoard()
+
 		#If the search is depth limited
 		if self.depth_limit != 0:
-			if self.curr_level == self.depth_limit:
+			if level == self.depth_limit:
+				gval = self.heur_fun(board_state.getBoard())
 				if self.trace == 1:
-					print('TRACE:{}: Depth Limited Node {}, Hval {}'.format(level,node,node.gval))
-				return [node, heur_fun(node)]
+					print('TRACE:{}: Depth Limited Node {}, Hval {}'.format(level,node,gval))
+				return [node, gval]
 		#Check if node is terminal node
 		else:
-			if node.terminal == 1:
-				if self.trace == 1:
-					print('TRACE:{}: Terminal Node {}, Gval {}'.format(level,node,node.gval))
-				return [node, node.gval]
+			if len(children) == 0:
+				if player == 1:
+					gval = board_state.getScoreBlack()
+				else:
+					gval = board_state.getScoreWhite()
 
-		#Get node successors (note, will be a function rather than an attribute)
-		children = node.successors
+				if self.trace == 1:
+					print('TRACE:{}: Terminal Node {}, Gval {}'.format(level,node,gval))
+				return [node, gval]
+
 		if self.trace == 1:
 			print('TRACE:{}: Current player is {}'.format(level,self.printPlayer(player)))
 			print('TRACE:{}: Node {} has successors {}'.format(level,node,str(children)))
@@ -77,7 +95,8 @@ class GameTreeSearch:
 						if alpha > beta:
 							pruned = True
 							break
-				print('TRACE:{}: Node {} Alpha={} Beta={} after searching {}'.format(level,node,alpha,beta,child_node))
+				if self.trace == 1:
+					print('TRACE:{}: Node {} Alpha={} Beta={} after searching {}'.format(level,node,alpha,beta,child_node))
 			else:
 				if utility < best_utility:
 					best_utility = utility
@@ -88,11 +107,17 @@ class GameTreeSearch:
 						if beta < alpha:
 							pruned = True
 							break
-				print('TRACE:{}: Node {} Alpha {} Beta {} after searching {}'.format(level,node,alpha,beta,child_node))
+				if self.trace == 1:
+					print('TRACE:{}: Node {} Alpha {} Beta {} after searching {}'.format(level,node,alpha,beta,child_node))
 			i = i + 1
 		if self.trace == 1:
 			if pruned == True:
 				print('TRACE:{}: Pruned nodes {} with alpha-beta pruning'.format(level, children[i+1:]))
 				self.nodes_pruned += len(children) - i - 1
 			print('TRACE:{}: {} choosing Node {} with Gval {}'.format(level, self.printPlayer(player), choice, best_utility))
+
+		self.nodes_visited += 1
+		if self.trace == 2:
+			print('TRACE:{}, {} Nodes Visited'.format(level,self.nodes_visited))
+
 		return [choice, best_utility]
