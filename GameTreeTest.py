@@ -26,13 +26,37 @@ def genTest(terminal_nodes, upper_levels):
 
 	all_nodes = []
 	temp_nodes = []
+
 	#Generate the terminal nodes
 	i = 0
 	j = 0
 	for node in terminal_nodes:
-		name = 'N' + str(i) + str(j)
+		name = "N(L{})(P{})".format(i,j)
 		temp_nodes.append(Node(name,[],1,node))
-	return 0
+		print("GEN:{}: Adding Terminal Node {}".format(i, name))
+		j = j + 1
+	all_nodes.append(temp_nodes)
+
+	#Generate the upper level nodes
+	i = i + 1
+	for level in upper_levels:
+		j = 0
+		a = 0
+		temp_nodes = []
+		for l in range(len(level)):
+			node = level[l]
+			connect_list = []
+			print("GEN:{}: This node has {} children".format(i,node))
+			for k in range(node):
+				connect_list.append(all_nodes[i-1][j])
+				j = j + 1
+			name = "N(L{})(P{})".format(i,l)
+			temp_nodes.append(Node(name,connect_list))
+			print("GEN:{}: Adding Node {} with Connections {}".format(i, name, connect_list))
+		all_nodes.append(temp_nodes)
+		i = i + 1
+	head = all_nodes[-1][-1]
+	return head
 
 #Generate test nodes from bottom up
 
@@ -82,4 +106,8 @@ S1 = GameTreeSearch(1)
 ts3_term = [0, 5, -3, 3, 3, -3, 0, 2, -2, 3, 5, 2, 5, -5, 0, 1, 5, 1, -3, 0, -5, 5, -3, 3, 2]
 ts3_levels = [[2,2,1,3,2,2,2,2,2,2,2,2,1],[2,3,2,1,2,1,1,1],[2,1,1,1,2,1],[1,2,2,1],[2,2],[2]]
 
-genTest(ts3_term,ts3_levels)
+head = 0
+head = genTest(ts3_term,ts3_levels)
+if head != 0:
+	choice = S1.search(head,1,True)
+	print(choice)
