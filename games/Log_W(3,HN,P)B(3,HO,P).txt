@@ -1,0 +1,812 @@
+ext Move
+Searching for MAX
+TRACE: Search completed with 27 nodes searched and 6 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [0, 0, 0, 0, 0, 0, 0, 0]
+1 [0, 0, 0, 0, 0, 0, 0, 0]
+2 [0, 0, 0, 0, 0, 0, 0, 0]
+3 [0, 0, W, W, W, 0, 0, 0]
+4 [0, 0, 0, W, B, 0, 0, 0]
+5 [0, 0, 0, 0, 0, 0, 0, 0]
+6 [0, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:4, B:1
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 25 nodes searched and 24 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [0, 0, 0, 0, 0, 0, 0, 0]
+1 [0, 0, 0, 0, 0, 0, 0, 0]
+2 [0, 0, B, 0, 0, 0, 0, 0]
+3 [0, 0, W, B, W, 0, 0, 0]
+4 [0, 0, 0, W, B, 0, 0, 0]
+5 [0, 0, 0, 0, 0, 0, 0, 0]
+6 [0, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:3, B:3
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 69 nodes searched and 56 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [0, 0, 0, 0, 0, 0, 0, 0]
+1 [0, 0, W, 0, 0, 0, 0, 0]
+2 [0, 0, W, 0, 0, 0, 0, 0]
+3 [0, 0, W, B, W, 0, 0, 0]
+4 [0, 0, 0, W, B, 0, 0, 0]
+5 [0, 0, 0, 0, 0, 0, 0, 0]
+6 [0, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:5, B:2
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 60 nodes searched and 99 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [0, 0, 0, 0, 0, 0, 0, 0]
+1 [0, B, W, 0, 0, 0, 0, 0]
+2 [0, 0, B, 0, 0, 0, 0, 0]
+3 [0, 0, W, B, W, 0, 0, 0]
+4 [0, 0, 0, W, B, 0, 0, 0]
+5 [0, 0, 0, 0, 0, 0, 0, 0]
+6 [0, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:4, B:4
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 66 nodes searched and 101 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [0, 0, 0, 0, 0, 0, 0, 0]
+1 [0, B, W, 0, 0, 0, 0, 0]
+2 [0, 0, B, W, 0, 0, 0, 0]
+3 [0, 0, W, W, W, 0, 0, 0]
+4 [0, 0, 0, W, B, 0, 0, 0]
+5 [0, 0, 0, 0, 0, 0, 0, 0]
+6 [0, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:6, B:3
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 83 nodes searched and 95 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [0, 0, 0, 0, 0, 0, 0, 0]
+1 [0, B, W, 0, 0, 0, 0, 0]
+2 [0, 0, B, W, 0, 0, 0, 0]
+3 [0, 0, B, W, W, 0, 0, 0]
+4 [0, 0, B, B, B, 0, 0, 0]
+5 [0, 0, 0, 0, 0, 0, 0, 0]
+6 [0, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:4, B:6
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 113 nodes searched and 348 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, 0, 0, 0, 0, 0, 0]
+1 [0, W, W, 0, 0, 0, 0, 0]
+2 [0, 0, W, W, 0, 0, 0, 0]
+3 [0, 0, B, W, W, 0, 0, 0]
+4 [0, 0, B, B, B, 0, 0, 0]
+5 [0, 0, 0, 0, 0, 0, 0, 0]
+6 [0, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:7, B:4
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 96 nodes searched and 143 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [0, W, B, 0, 0, 0, 0, 0]
+2 [0, 0, B, W, 0, 0, 0, 0]
+3 [0, 0, B, W, W, 0, 0, 0]
+4 [0, 0, B, B, B, 0, 0, 0]
+5 [0, 0, 0, 0, 0, 0, 0, 0]
+6 [0, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:5, B:7
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 166 nodes searched and 379 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [0, W, B, 0, 0, 0, 0, 0]
+2 [0, 0, B, W, 0, 0, 0, 0]
+3 [0, W, W, W, W, 0, 0, 0]
+4 [0, 0, B, B, B, 0, 0, 0]
+5 [0, 0, 0, 0, 0, 0, 0, 0]
+6 [0, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:7, B:6
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 136 nodes searched and 224 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [0, W, B, 0, 0, 0, 0, 0]
+2 [0, 0, B, W, 0, 0, 0, 0]
+3 [0, B, W, W, W, 0, 0, 0]
+4 [B, 0, B, B, B, 0, 0, 0]
+5 [0, 0, 0, 0, 0, 0, 0, 0]
+6 [0, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:6, B:8
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 144 nodes searched and 319 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [0, W, B, 0, 0, 0, 0, 0]
+2 [0, 0, B, W, 0, 0, 0, 0]
+3 [W, W, W, W, W, 0, 0, 0]
+4 [B, 0, B, B, B, 0, 0, 0]
+5 [0, 0, 0, 0, 0, 0, 0, 0]
+6 [0, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:8, B:7
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 109 nodes searched and 233 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [0, B, B, 0, 0, 0, 0, 0]
+2 [B, 0, B, W, 0, 0, 0, 0]
+3 [B, B, W, W, W, 0, 0, 0]
+4 [B, 0, B, B, B, 0, 0, 0]
+5 [0, 0, 0, 0, 0, 0, 0, 0]
+6 [0, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:5, B:11
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 107 nodes searched and 180 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [0, B, B, 0, 0, 0, 0, 0]
+2 [B, 0, B, W, 0, 0, 0, 0]
+3 [B, B, W, W, W, 0, 0, 0]
+4 [B, 0, B, W, B, 0, 0, 0]
+5 [0, 0, 0, W, 0, 0, 0, 0]
+6 [0, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:7, B:10
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 136 nodes searched and 90 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [0, B, B, 0, 0, 0, 0, 0]
+2 [B, 0, B, W, 0, 0, 0, 0]
+3 [B, B, W, W, W, 0, 0, 0]
+4 [B, 0, B, W, B, 0, 0, 0]
+5 [0, 0, 0, B, 0, 0, 0, 0]
+6 [0, 0, 0, 0, B, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:6, B:12
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 152 nodes searched and 173 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [0, B, B, 0, 0, 0, 0, 0]
+2 [B, W, W, W, 0, 0, 0, 0]
+3 [B, B, W, W, W, 0, 0, 0]
+4 [B, 0, B, W, B, 0, 0, 0]
+5 [0, 0, 0, B, 0, 0, 0, 0]
+6 [0, 0, 0, 0, B, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:8, B:11
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 71 nodes searched and 137 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [0, B, B, B, 0, 0, 0, 0]
+2 [B, W, B, B, 0, 0, 0, 0]
+3 [B, B, W, B, W, 0, 0, 0]
+4 [B, 0, B, B, B, 0, 0, 0]
+5 [0, 0, 0, B, 0, 0, 0, 0]
+6 [0, 0, 0, 0, B, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:4, B:16
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 149 nodes searched and 196 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [0, B, B, B, 0, 0, 0, 0]
+2 [B, W, B, B, 0, 0, 0, 0]
+3 [B, W, W, B, W, 0, 0, 0]
+4 [B, W, B, B, B, 0, 0, 0]
+5 [0, 0, 0, B, 0, 0, 0, 0]
+6 [0, 0, 0, 0, B, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:6, B:15
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 164 nodes searched and 266 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [0, B, B, B, 0, 0, 0, 0]
+2 [B, W, B, B, 0, 0, 0, 0]
+3 [B, W, B, B, W, 0, 0, 0]
+4 [B, B, B, B, B, 0, 0, 0]
+5 [B, 0, 0, B, 0, 0, 0, 0]
+6 [0, 0, 0, 0, B, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:4, B:18
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 149 nodes searched and 266 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [0, B, B, B, 0, 0, 0, 0]
+2 [B, W, B, B, 0, 0, 0, 0]
+3 [B, W, W, B, W, 0, 0, 0]
+4 [B, B, B, W, W, 0, 0, 0]
+5 [B, 0, 0, B, W, 0, 0, 0]
+6 [0, 0, 0, 0, B, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:8, B:15
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 148 nodes searched and 125 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [0, B, B, B, 0, 0, 0, 0]
+2 [B, W, B, B, 0, 0, 0, 0]
+3 [B, W, W, B, W, 0, 0, 0]
+4 [B, B, B, W, B, 0, 0, 0]
+5 [B, 0, 0, B, B, B, 0, 0]
+6 [0, 0, 0, 0, B, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:6, B:18
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 193 nodes searched and 358 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [0, B, B, B, 0, 0, 0, 0]
+2 [B, W, B, B, 0, 0, 0, 0]
+3 [B, W, W, B, W, 0, 0, 0]
+4 [B, B, B, W, B, 0, 0, 0]
+5 [B, 0, 0, B, W, B, 0, 0]
+6 [0, 0, 0, 0, B, W, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:8, B:17
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 190 nodes searched and 186 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [0, B, B, B, 0, 0, 0, 0]
+2 [B, W, B, B, 0, 0, 0, 0]
+3 [B, W, W, B, W, 0, 0, 0]
+4 [B, B, B, W, B, 0, 0, 0]
+5 [B, 0, 0, B, W, B, 0, 0]
+6 [0, 0, 0, 0, B, B, 0, 0]
+7 [0, 0, 0, 0, 0, B, 0, 0]
+    Score: W:7, B:19
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 193 nodes searched and 358 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [0, B, B, B, 0, 0, 0, 0]
+2 [B, W, B, B, 0, 0, 0, 0]
+3 [B, W, W, B, W, 0, 0, 0]
+4 [B, B, B, W, B, 0, 0, 0]
+5 [B, 0, 0, B, W, B, 0, 0]
+6 [0, 0, 0, 0, W, B, 0, 0]
+7 [0, 0, 0, 0, W, B, 0, 0]
+    Score: W:9, B:18
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 203 nodes searched and 206 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [0, B, B, B, 0, 0, 0, 0]
+2 [B, W, B, B, 0, 0, 0, 0]
+3 [B, W, W, B, W, 0, 0, 0]
+4 [B, B, B, W, B, 0, 0, 0]
+5 [B, 0, 0, B, W, B, 0, 0]
+6 [0, 0, 0, 0, B, B, 0, 0]
+7 [0, 0, 0, B, B, B, 0, 0]
+    Score: W:7, B:21
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 175 nodes searched and 336 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [0, B, B, B, 0, 0, 0, 0]
+2 [B, W, B, B, 0, 0, 0, 0]
+3 [B, W, W, B, W, 0, 0, 0]
+4 [B, B, B, W, B, 0, 0, 0]
+5 [B, 0, 0, W, W, B, 0, 0]
+6 [0, 0, 0, W, B, B, 0, 0]
+7 [0, 0, 0, B, B, B, 0, 0]
+    Score: W:9, B:20
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 173 nodes searched and 211 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [0, B, B, B, 0, 0, 0, 0]
+2 [B, W, B, B, 0, 0, 0, 0]
+3 [B, W, W, B, W, 0, 0, 0]
+4 [B, B, B, W, B, 0, 0, 0]
+5 [B, 0, B, B, B, B, 0, 0]
+6 [0, 0, 0, B, B, B, 0, 0]
+7 [0, 0, 0, B, B, B, 0, 0]
+    Score: W:6, B:24
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 150 nodes searched and 369 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [0, B, B, B, 0, 0, 0, 0]
+2 [B, W, B, B, 0, 0, 0, 0]
+3 [B, W, W, B, W, 0, 0, 0]
+4 [B, W, B, W, B, 0, 0, 0]
+5 [B, W, B, B, B, B, 0, 0]
+6 [0, 0, 0, B, B, B, 0, 0]
+7 [0, 0, 0, B, B, B, 0, 0]
+    Score: W:8, B:23
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 245 nodes searched and 220 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [0, B, B, B, 0, 0, 0, 0]
+2 [B, B, B, B, 0, 0, 0, 0]
+3 [B, B, W, B, W, 0, 0, 0]
+4 [B, B, B, W, B, 0, 0, 0]
+5 [B, B, B, B, B, B, 0, 0]
+6 [0, B, 0, B, B, B, 0, 0]
+7 [0, 0, 0, B, B, B, 0, 0]
+    Score: W:4, B:28
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 102 nodes searched and 271 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [W, B, B, B, 0, 0, 0, 0]
+2 [B, W, B, B, 0, 0, 0, 0]
+3 [B, B, W, B, W, 0, 0, 0]
+4 [B, B, B, W, B, 0, 0, 0]
+5 [B, B, B, B, B, B, 0, 0]
+6 [0, B, 0, B, B, B, 0, 0]
+7 [0, 0, 0, B, B, B, 0, 0]
+    Score: W:6, B:27
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 180 nodes searched and 73 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, 0, B, 0, 0, 0, 0, 0]
+1 [W, B, B, B, 0, 0, 0, 0]
+2 [B, W, B, B, B, 0, 0, 0]
+3 [B, B, W, B, B, 0, 0, 0]
+4 [B, B, B, W, B, 0, 0, 0]
+5 [B, B, B, B, B, B, 0, 0]
+6 [0, B, 0, B, B, B, 0, 0]
+7 [0, 0, 0, B, B, B, 0, 0]
+    Score: W:5, B:29
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 89 nodes searched and 212 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, B, 0, 0, 0, 0, 0]
+1 [W, W, B, B, 0, 0, 0, 0]
+2 [B, W, B, B, B, 0, 0, 0]
+3 [B, B, W, B, B, 0, 0, 0]
+4 [B, B, B, W, B, 0, 0, 0]
+5 [B, B, B, B, B, B, 0, 0]
+6 [0, B, 0, B, B, B, 0, 0]
+7 [0, 0, 0, B, B, B, 0, 0]
+    Score: W:7, B:28
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 86 nodes searched and 123 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, B, 0, 0, 0, 0, 0]
+1 [W, W, B, B, 0, 0, 0, 0]
+2 [W, W, B, B, B, 0, 0, 0]
+3 [W, B, W, B, B, 0, 0, 0]
+4 [W, B, B, W, B, 0, 0, 0]
+5 [W, B, B, B, B, B, 0, 0]
+6 [W, B, 0, B, B, B, 0, 0]
+7 [0, 0, 0, B, B, B, 0, 0]
+    Score: W:12, B:24
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 89 nodes searched and 98 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, B, 0, 0, 0, 0, 0]
+1 [W, W, B, B, 0, 0, 0, 0]
+2 [W, W, B, B, B, 0, 0, 0]
+3 [W, B, W, B, B, 0, 0, 0]
+4 [W, B, B, W, B, 0, 0, 0]
+5 [W, B, W, B, B, B, 0, 0]
+6 [W, W, 0, B, B, B, 0, 0]
+7 [W, 0, 0, B, B, B, 0, 0]
+    Score: W:15, B:22
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 40 nodes searched and 34 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, B, 0, 0, 0, 0, 0]
+1 [W, W, B, B, 0, 0, 0, 0]
+2 [W, W, B, B, B, 0, 0, 0]
+3 [W, B, W, B, B, 0, 0, 0]
+4 [W, B, B, W, B, 0, 0, 0]
+5 [W, B, B, B, B, B, 0, 0]
+6 [W, W, B, B, B, B, 0, 0]
+7 [W, 0, 0, B, B, B, 0, 0]
+    Score: W:14, B:24
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 101 nodes searched and 250 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, B, 0, 0, 0, 0, 0]
+1 [W, W, B, B, 0, 0, 0, 0]
+2 [W, W, B, B, B, 0, 0, 0]
+3 [W, B, W, B, B, 0, 0, 0]
+4 [W, B, W, W, B, 0, 0, 0]
+5 [W, B, W, B, B, B, 0, 0]
+6 [W, W, W, B, B, B, 0, 0]
+7 [W, 0, W, B, B, B, 0, 0]
+    Score: W:18, B:21
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 54 nodes searched and 0 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, B, 0, 0, 0, 0, 0]
+1 [W, W, B, B, 0, 0, 0, 0]
+2 [W, W, B, B, B, 0, 0, 0]
+3 [W, B, W, B, B, 0, 0, 0]
+4 [W, B, W, W, B, 0, 0, 0]
+5 [W, B, W, B, B, B, 0, 0]
+6 [W, B, B, B, B, B, 0, 0]
+7 [W, B, B, B, B, B, 0, 0]
+    Score: W:15, B:25
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 93 nodes searched and 182 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, 0, 0, 0, 0]
+1 [W, W, W, W, 0, 0, 0, 0]
+2 [W, W, B, W, B, 0, 0, 0]
+3 [W, B, W, W, B, 0, 0, 0]
+4 [W, B, W, W, B, 0, 0, 0]
+5 [W, B, W, B, B, B, 0, 0]
+6 [W, B, B, B, B, B, 0, 0]
+7 [W, B, B, B, B, B, 0, 0]
+    Score: W:21, B:20
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 83 nodes searched and 9 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, 0, 0, 0, 0]
+1 [W, W, W, W, B, 0, 0, 0]
+2 [W, W, B, B, B, 0, 0, 0]
+3 [W, B, B, W, B, 0, 0, 0]
+4 [W, B, W, W, B, 0, 0, 0]
+5 [W, B, W, B, B, B, 0, 0]
+6 [W, B, B, B, B, B, 0, 0]
+7 [W, B, B, B, B, B, 0, 0]
+    Score: W:19, B:23
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 67 nodes searched and 194 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, 0, W, 0, 0]
+1 [W, W, W, W, W, 0, 0, 0]
+2 [W, W, B, W, B, 0, 0, 0]
+3 [W, B, W, W, B, 0, 0, 0]
+4 [W, W, W, W, B, 0, 0, 0]
+5 [W, B, W, B, B, B, 0, 0]
+6 [W, B, B, B, B, B, 0, 0]
+7 [W, B, B, B, B, B, 0, 0]
+    Score: W:24, B:19
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 39 nodes searched and 0 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, B, W, 0, 0]
+1 [W, W, W, B, B, 0, 0, 0]
+2 [W, W, B, W, B, 0, 0, 0]
+3 [W, B, W, W, B, 0, 0, 0]
+4 [W, W, W, W, B, 0, 0, 0]
+5 [W, B, W, B, B, B, 0, 0]
+6 [W, B, B, B, B, B, 0, 0]
+7 [W, B, B, B, B, B, 0, 0]
+    Score: W:22, B:22
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 83 nodes searched and 150 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, B, W, 0, 0]
+1 [W, W, W, W, W, W, 0, 0]
+2 [W, W, B, W, W, 0, 0, 0]
+3 [W, B, W, W, B, 0, 0, 0]
+4 [W, W, W, W, B, 0, 0, 0]
+5 [W, B, W, B, B, B, 0, 0]
+6 [W, B, B, B, B, B, 0, 0]
+7 [W, B, B, B, B, B, 0, 0]
+    Score: W:26, B:19
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 92 nodes searched and 38 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, B, W, 0, 0]
+1 [W, W, W, W, W, W, 0, 0]
+2 [W, W, B, B, B, B, 0, 0]
+3 [W, B, W, W, B, 0, 0, 0]
+4 [W, W, W, W, B, 0, 0, 0]
+5 [W, B, W, B, B, B, 0, 0]
+6 [W, B, B, B, B, B, 0, 0]
+7 [W, B, B, B, B, B, 0, 0]
+    Score: W:24, B:22
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 100 nodes searched and 173 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, B, W, 0, 0]
+1 [W, W, W, W, W, W, 0, 0]
+2 [W, W, W, W, W, W, W, 0]
+3 [W, B, W, W, B, 0, 0, 0]
+4 [W, W, W, W, B, 0, 0, 0]
+5 [W, B, W, B, B, B, 0, 0]
+6 [W, B, B, B, B, B, 0, 0]
+7 [W, B, B, B, B, B, 0, 0]
+    Score: W:29, B:18
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 66 nodes searched and 69 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, B, B, B, 0]
+1 [W, W, W, W, W, B, 0, 0]
+2 [W, W, W, W, B, W, W, 0]
+3 [W, B, W, B, B, 0, 0, 0]
+4 [W, W, B, W, B, 0, 0, 0]
+5 [W, B, W, B, B, B, 0, 0]
+6 [W, B, B, B, B, B, 0, 0]
+7 [W, B, B, B, B, B, 0, 0]
+    Score: W:24, B:24
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 90 nodes searched and 203 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, B, B, B, 0]
+1 [W, W, W, W, W, B, 0, 0]
+2 [W, W, W, W, W, W, W, 0]
+3 [W, B, W, W, W, W, 0, 0]
+4 [W, W, B, W, B, 0, 0, 0]
+5 [W, B, W, B, B, B, 0, 0]
+6 [W, B, B, B, B, B, 0, 0]
+7 [W, B, B, B, B, B, 0, 0]
+    Score: W:28, B:21
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 63 nodes searched and 153 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, B, B, B, 0]
+1 [W, W, W, W, W, B, B, 0]
+2 [W, W, W, W, W, B, W, 0]
+3 [W, B, W, W, B, W, 0, 0]
+4 [W, W, B, B, B, 0, 0, 0]
+5 [W, B, B, B, B, B, 0, 0]
+6 [W, B, B, B, B, B, 0, 0]
+7 [W, B, B, B, B, B, 0, 0]
+    Score: W:24, B:26
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 97 nodes searched and 172 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, B, B, B, 0]
+1 [W, W, W, W, W, B, B, 0]
+2 [W, W, W, W, W, B, W, 0]
+3 [W, B, W, W, W, W, 0, 0]
+4 [W, W, W, W, W, W, 0, 0]
+5 [W, B, B, B, B, B, 0, 0]
+6 [W, B, B, B, B, B, 0, 0]
+7 [W, B, B, B, B, B, 0, 0]
+    Score: W:29, B:22
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 83 nodes searched and 75 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, B, B, B, 0]
+1 [W, W, W, W, W, B, B, 0]
+2 [W, W, W, W, W, B, B, B]
+3 [W, B, W, W, W, W, 0, 0]
+4 [W, W, W, W, W, W, 0, 0]
+5 [W, B, B, B, B, B, 0, 0]
+6 [W, B, B, B, B, B, 0, 0]
+7 [W, B, B, B, B, B, 0, 0]
+    Score: W:28, B:24
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 60 nodes searched and 67 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, B, B, B, 0]
+1 [W, W, W, W, W, B, B, 0]
+2 [W, W, W, W, W, W, B, B]
+3 [W, B, W, W, W, W, W, 0]
+4 [W, W, W, W, W, W, 0, 0]
+5 [W, B, B, B, B, B, 0, 0]
+6 [W, B, B, B, B, B, 0, 0]
+7 [W, B, B, B, B, B, 0, 0]
+    Score: W:30, B:23
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 45 nodes searched and 37 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, B, B, B, 0]
+1 [W, W, W, W, W, B, B, 0]
+2 [W, W, W, W, W, W, B, B]
+3 [W, B, B, B, B, B, B, B]
+4 [W, W, W, W, W, W, 0, 0]
+5 [W, B, B, B, B, B, 0, 0]
+6 [W, B, B, B, B, B, 0, 0]
+7 [W, B, B, B, B, B, 0, 0]
+    Score: W:25, B:29
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 62 nodes searched and 81 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, B, B, B, 0]
+1 [W, W, W, W, W, B, B, 0]
+2 [W, W, W, W, W, W, B, B]
+3 [W, B, B, B, B, W, B, B]
+4 [W, W, W, W, W, W, W, 0]
+5 [W, B, B, B, B, B, 0, 0]
+6 [W, B, B, B, B, B, 0, 0]
+7 [W, B, B, B, B, B, 0, 0]
+    Score: W:27, B:28
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 39 nodes searched and 0 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, B, B, B, 0]
+1 [W, W, W, W, W, B, B, 0]
+2 [W, W, W, W, W, W, B, B]
+3 [W, B, B, B, B, W, B, B]
+4 [W, W, W, W, W, B, B, 0]
+5 [W, B, B, B, B, B, B, 0]
+6 [W, B, B, B, B, B, 0, 0]
+7 [W, B, B, B, B, B, 0, 0]
+    Score: W:25, B:31
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 68 nodes searched and 39 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, B, B, B, 0]
+1 [W, W, W, W, W, B, B, 0]
+2 [W, W, W, W, W, W, B, B]
+3 [W, B, B, B, B, W, W, B]
+4 [W, W, W, W, W, W, W, W]
+5 [W, B, B, B, B, B, B, 0]
+6 [W, B, B, B, B, B, 0, 0]
+7 [W, B, B, B, B, B, 0, 0]
+    Score: W:29, B:28
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 29 nodes searched and 0 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, B, B, B, 0]
+1 [W, W, W, W, W, B, B, 0]
+2 [W, W, W, W, W, W, B, B]
+3 [W, B, B, B, B, W, W, B]
+4 [W, W, W, W, W, W, W, B]
+5 [W, B, B, B, B, B, B, B]
+6 [W, B, B, B, B, B, 0, 0]
+7 [W, B, B, B, B, B, 0, 0]
+    Score: W:28, B:30
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 45 nodes searched and 24 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, B, B, B, 0]
+1 [W, W, W, W, W, B, B, 0]
+2 [W, W, W, W, W, W, B, B]
+3 [W, B, B, B, B, W, W, B]
+4 [W, W, W, W, W, W, W, B]
+5 [W, B, B, B, W, B, B, B]
+6 [W, B, B, B, B, W, 0, 0]
+7 [W, W, W, W, W, W, W, 0]
+    Score: W:36, B:23
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 24 nodes searched and 0 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, B, B, B, 0]
+1 [W, W, W, W, W, B, B, 0]
+2 [W, W, W, W, W, W, B, B]
+3 [W, B, B, B, B, W, W, B]
+4 [W, W, W, W, W, W, W, B]
+5 [W, B, B, B, W, B, B, B]
+6 [W, B, B, B, B, B, B, 0]
+7 [W, W, W, W, W, W, W, 0]
+    Score: W:35, B:25
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 36 nodes searched and 5 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, B, B, B, 0]
+1 [W, W, W, W, W, B, B, 0]
+2 [W, W, W, W, W, W, B, B]
+3 [W, B, B, B, B, W, W, B]
+4 [W, W, W, W, W, W, W, B]
+5 [W, B, B, B, W, W, B, B]
+6 [W, B, B, B, B, B, W, 0]
+7 [W, W, W, W, W, W, W, W]
+    Score: W:38, B:23
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 14 nodes searched and 0 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, B, B, B, 0]
+1 [W, W, W, W, W, B, B, 0]
+2 [W, W, W, W, W, W, B, B]
+3 [W, B, B, B, B, W, W, B]
+4 [W, W, W, W, W, W, W, B]
+5 [W, B, B, B, W, W, B, B]
+6 [W, B, B, B, B, B, B, B]
+7 [W, W, W, W, W, W, W, W]
+    Score: W:37, B:25
+--------------------------------------------------
+Next Move
+Searching for MAX
+TRACE: Search completed with 19 nodes searched and 2 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, W]
+1 [W, W, W, W, W, B, W, 0]
+2 [W, W, W, W, W, W, B, B]
+3 [W, B, B, B, B, W, W, B]
+4 [W, W, W, W, W, W, W, B]
+5 [W, B, B, B, W, W, B, B]
+6 [W, B, B, B, B, B, B, B]
+7 [W, W, W, W, W, W, W, W]
+    Score: W:42, B:21
+--------------------------------------------------
+Searching for MIN
+TRACE: Search completed with 4 nodes searched and 0 nodes pruned
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, W]
+1 [W, W, W, W, W, B, B, B]
+2 [W, W, W, W, W, W, B, B]
+3 [W, B, B, B, B, W, W, B]
+4 [W, W, W, W, W, W, W, B]
+5 [W, B, B, B, W, W, B, B]
+6 [W, B, B, B, B, B, B, B]
+7 [W, W, W, W, W, W, W, W]
+    Score: W:41, B:23
+--------------------------------------------------
+Game Over! White wins!

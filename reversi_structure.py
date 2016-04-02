@@ -36,15 +36,9 @@ class ReversiBoard:
     # Print the board and corresponding score of each colour of token.
     def printBoard(self):
         i = 0
-<<<<<<< HEAD
         print('   0  1  2  3  4  5  6  7')
         for row in self.board:
-            print (i,'[%s]' % ', '.join(map(str, row)))
-=======
-        print("   0  1  2  3  4  5  6  7")
-        for row in self.board:
             print (i, '[%s]' % ', '.join(map(str, row)))
->>>>>>> 42c332f35b800c96436a095cb937d235cd6c5e6e
             i += 1
         print('    Score: W:{}, B:{}'.format(self.score_white,self.score_black))
         return

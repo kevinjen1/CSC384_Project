@@ -1,5 +1,7 @@
 import math
 from reversi_structure import *
+import time
+import decimal
 
 #No heuristic
 def _zero_hfn(node):
@@ -10,23 +12,33 @@ class GameTreeSearch:
 		self.search_strategy = search_strategy
 		self.depth_limit = depth_limit
 		self.trace = trace_level
+		self.nodes_pruned = 0
 		return
 
 	def search(self, top_node, turn, prune=True, heur_fun = _zero_hfn):
 		self.heur_fun = heur_fun
 		self.prune = prune
-		self.nodes_pruned = 0
 		self.nodes_visited = 0
+		self.terminal_nodes = 0
 		#For turn 1 is MAX, -1 is MIN
 		if self.trace == 1:
 			print('TRACE: Running search on node {}'.format(top_node))
 			print('TRACE: Current player is {}'.format(self.printPlayer(turn)))
+		start_time = time.clock()
 		result = self.gtRecurse(top_node, 1, turn)
-		if self.trace == 1:
+		end_time = time.clock()
+		search_time = end_time - start_time
+
+		total_nodes = self.nodes_visited + self.terminal_nodes
+		speed = total_nodes/search_time
+
+		search_time = round(search_time,2)
+		speed = round(speed,2)
+		if self.trace == 3:
 			if self.prune == False:
-				print('TRACE: Search completed with choice {}'.format(result[0]))
+				print('TRACE: Search completed with {} nodes, searched [{}s, {} nodes/s]'.format(total_nodes, search_time, speed))
 			else:
-				print('TRACE: Search completed with choice {} and {} nodes pruned'.format(result[0], self.nodes_pruned))
+				print('TRACE: Search completed with {} nodes searched and {} nodes pruned [{}s, {} nodes/s]'.format(total_nodes, self.nodes_pruned, search_time, speed))
 		return result[0]
 
 	def printPlayer(self, player):
@@ -55,12 +67,15 @@ class GameTreeSearch:
 		if self.depth_limit != 0:
 			if level == self.depth_limit:
 				gval = self.heur_fun(board_state.getBoard())
+				self.terminal_nodes += 1
+
 				if self.trace == 1:
 					print('TRACE:{}: Depth Limited Node {}, Hval {}'.format(level,node,gval))
 				return [node, gval]
 		#Check if node is terminal node
 		else:
 			if len(children) == 0:
+				self.terminal_nodes += 1
 				if player == 1:
 					gval = board_state.getScoreBlack()
 				else:
@@ -112,11 +127,15 @@ class GameTreeSearch:
 			i = i + 1
 		if self.trace == 1:
 			if pruned == True:
-				print('TRACE:{}: Pruned nodes {} with alpha-beta pruning'.format(level, children[i+1:]))
-				self.nodes_pruned += len(children) - i - 1
+				print('TRACE:{}: Pruned {} nodes with alpha-beta pruning'.format(level, len(children[i+1:])))
+				print('TRACE:{}: {} total nodes pruned'.format(level, self.nodes_pruned))
 			print('TRACE:{}: {} choosing Node {} with Gval {}'.format(level, self.printPlayer(player), choice, best_utility))
 
+		if pruned == True:
+			self.nodes_pruned += len(children[i+1:])
+
 		self.nodes_visited += 1
+
 		if self.trace == 2:
 			print('TRACE:{}, {} Nodes Visited'.format(level,self.nodes_visited))
 
