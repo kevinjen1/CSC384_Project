@@ -9,7 +9,7 @@ def canMove(self,opp,array):
 
 def isLeagelMove(self,opp,game_board,x_start,y_start,board_size):
     if game_board[x_start][y_start] != 0: return False
-    array = []
+    array = [0] * board_size
     dy = dx = -1
     while dy <= 1:
         while dx <= 1:
@@ -33,10 +33,10 @@ def NumValidMoves(self,opp,game_board,board_size):
     return count
 
 
-def Hfunc(state,game_board):
+def Hfunc(game_board):
     board_size = len(game_board)
-    my_color = 'B'
-    opp_color = 'W'
+    my_color = 'W'
+    opp_color = 'B'
     parity = stability_flip = stability_weight = corners = mobility = 0.00
 
     # indices to loop through 8 adjacent slot for a given slot
@@ -61,10 +61,10 @@ def Hfunc(state,game_board):
     for i in range(board_size):
         for j in range(board_size):
             if game_board[i][j] == my_color:
-                stability_weight += game_board[i][j]
+                stability_weight += W[i][j]
                 my_tiles += 1
             elif game_board[i][j] == opp_color:
-                stability_weight -= game_board[i][j]
+                stability_weight -= W[i][j]
                 opp_tiles += 1
             if game_board[i][j] != 0:
                 for k in range(8):
