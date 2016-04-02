@@ -1,7 +1,0 @@
-Traceback (most recent call last):
-  File "/home/kevin/Dropbox/Third Year/4. Intro to AI/Project/GameTreeTest.py", line 1, in <module>
-    import GameTreeSearch.py
-  File "/home/kevin/Dropbox/Third Year/4. Intro to AI/Project/GameTreeSearch.py", line 49
-    return [choice best_utility]
-                              ^
-SyntaxError: invalid syntax
