@@ -52,6 +52,9 @@ class ReversiBoard:
     def getScoreWhite(self):
         return self.score_white
 
+    # Return the name of the Board
+    def getName(self):
+        return self.name
 class GameTreeNode:
     '''
     A object that contains a ReversiBoard object, an instance of the board from the ReversiBoard object,
@@ -67,6 +70,9 @@ class GameTreeNode:
         self.parent = parent
         self.children_black = []
         self.children_white = []
+
+    def __repr__(self):
+        return self.reversiBoardObject.getName()
 
     # get the ReversiBoard object
     def getReversiBoardObject(self):
