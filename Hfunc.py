@@ -95,6 +95,43 @@ def Hfunc(game_board):
     else:
         corners = 100 * (my_tiles - opp_tiles)/(my_tiles + opp_tiles)
 
+    # corner closeness
+    my_tiles = opp_tiles = 0
+    if game_board[0][0] == 0:
+        if game_board[0][1] == my_color: my_tiles += 1
+        elif game_board[0][1] == opp_color: opp_tiles += 1
+        if game_board[1][1] == my_color: my_tiles += 1
+        elif game_board[1][1] == opp_color: opp_tiles+=1
+        if game_board[1][0] == my_color: my_tiles += 1
+        elif game_board[1][0] == opp_color: opp_tiles += 1
+
+    if game_board[0][7] == 0 :
+        if game_board[0][6] == my_color: my_tiles += 1
+        elif game_board[0][6] == opp_color: opp_tiles += 1
+        if game_board[1][6] == my_color: my_tiles += 1
+        elif game_board[1][6] == opp_color: opp_tiles += 1
+        if game_board[1][7] == my_color: my_tiles += 1
+        elif game_board[1][7] == opp_color: opp_tiles += 1
+
+    if game_board[7][0] == 0 :    
+        if game_board[7][1] == my_color: my_tiles += 1
+        elif game_board[7][1] == opp_color: opp_tiles += 1
+        if game_board[6][1] == my_color: my_tiles += 1
+        elif game_board[6][1] == opp_color: opp_tiles += 1
+        if game_board[6][0] == my_color: my_tiles += 1
+        elif game_board[6][0] == opp_color: opp_tiles += 1
+
+    if game_board[7][7] == 0:
+        if game_board[6][7] == my_color: my_tiles += 1
+        elif game_board[6][7] == opp_color: opp_tiles += 1
+        if game_board[6][6] == my_color: my_tiles += 1
+        elif game_board[6][6] == opp_color: opp_tiles += 1
+        if game_board[7][6] == my_color: my_tiles += 1
+        elif game_board[7][6] == opp_color: opp_tiles += 1
+
+    stability_corner = -12.5 * (my_tiles - opp_tiles)
+
+
     # mobility
     my_tiles = NumValidMoves(my_color,opp_color,game_board,board_size)
     opp_tiles = NumValidMoves(opp_color,my_color,game_board,board_size)
@@ -103,9 +140,8 @@ def Hfunc(game_board):
     else:
         mobility = 100 * (my_tiles - opp_tiles)/(my_tiles + opp_tiles)
 
-    final_weight = 10 * parity + 74.396 * stability_flip + 10 * stability_weight + 801.724 * corners + 78.922 * mobility
+    final_weight = 10 * parity + 74.396 * stability_flip + 382.026 * stability_corner + 10 * stability_weight + 801.724 * corners + 78.922 * mobility
     return final_weight
-
 
 
 
