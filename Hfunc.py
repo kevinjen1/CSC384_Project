@@ -103,10 +103,9 @@ def Hfunc(game_board):
     else:
         mobility = 100 * (my_tiles - opp_tiles)/(my_tiles + opp_tiles)
 
-    final_weight = parity + stability_flip + stability_weight + corners + mobility
+    final_weight = 10 * parity + 74.396 * stability_flip + 10 * stability_weight + 801.724 * corners + 78.922 * mobility
     return final_weight
 
-    
 
 
 
