@@ -1,0 +1,607 @@
+/Library/Frameworks/Python.framework/Versions/3.4/bin/python3.4 /Users/jessicaxiao/Documents/CSC384/Project/CSC384_Project/reversi_test.py
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [0, 0, 0, 0, 0, 0, 0, 0]
+1 [B, 0, 0, W, 0, 0, 0, 0]
+2 [0, B, W, W, B, 0, 0, 0]
+3 [0, 0, W, B, B, 0, 0, 0]
+4 [0, W, W, B, B, 0, 0, 0]
+5 [0, 0, W, 0, 0, 0, 0, 0]
+6 [0, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:7, B:7
+Human Move:4,0
+   0  1  2  3  4  5  6  7
+0 [0, 0, 0, 0, 0, 0, 0, 0]
+1 [B, 0, 0, W, 0, 0, 0, 0]
+2 [0, B, W, W, B, 0, 0, 0]
+3 [0, 0, W, B, B, 0, 0, 0]
+4 [B, B, B, B, B, 0, 0, 0]
+5 [0, 0, W, 0, 0, 0, 0, 0]
+6 [0, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:5, B:10
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [0, 0, 0, 0, 0, 0, 0, 0]
+1 [B, 0, 0, W, 0, 0, 0, 0]
+2 [0, B, W, W, B, 0, 0, 0]
+3 [0, 0, W, B, B, 0, 0, 0]
+4 [B, W, B, B, B, 0, 0, 0]
+5 [W, 0, W, 0, 0, 0, 0, 0]
+6 [0, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:7, B:9
+Human Move:6,0
+   0  1  2  3  4  5  6  7
+0 [0, 0, 0, 0, 0, 0, 0, 0]
+1 [B, 0, 0, W, 0, 0, 0, 0]
+2 [0, B, W, W, B, 0, 0, 0]
+3 [0, 0, W, B, B, 0, 0, 0]
+4 [B, W, B, B, B, 0, 0, 0]
+5 [B, 0, W, 0, 0, 0, 0, 0]
+6 [B, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:6, B:11
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [0, 0, 0, 0, 0, 0, 0, 0]
+1 [B, 0, 0, W, 0, 0, 0, 0]
+2 [0, B, W, W, W, 0, 0, 0]
+3 [0, 0, W, W, W, W, 0, 0]
+4 [B, W, B, B, B, 0, 0, 0]
+5 [B, 0, W, 0, 0, 0, 0, 0]
+6 [B, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:10, B:8
+Human Move:0,3
+   0  1  2  3  4  5  6  7
+0 [0, 0, 0, B, 0, 0, 0, 0]
+1 [B, 0, 0, B, 0, 0, 0, 0]
+2 [0, B, W, B, W, 0, 0, 0]
+3 [0, 0, W, B, W, W, 0, 0]
+4 [B, W, B, B, B, 0, 0, 0]
+5 [B, 0, W, 0, 0, 0, 0, 0]
+6 [B, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:7, B:12
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [0, 0, 0, B, 0, 0, 0, 0]
+1 [B, 0, 0, B, 0, 0, 0, 0]
+2 [0, B, W, B, W, 0, 0, 0]
+3 [0, 0, W, W, W, W, 0, 0]
+4 [B, W, W, B, B, 0, 0, 0]
+5 [B, W, W, 0, 0, 0, 0, 0]
+6 [B, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:10, B:10
+Human Move:2,5
+   0  1  2  3  4  5  6  7
+0 [0, 0, 0, B, 0, 0, 0, 0]
+1 [B, 0, 0, B, 0, 0, 0, 0]
+2 [0, B, W, B, B, B, 0, 0]
+3 [0, 0, W, W, B, W, 0, 0]
+4 [B, W, W, B, B, 0, 0, 0]
+5 [B, W, W, 0, 0, 0, 0, 0]
+6 [B, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:8, B:13
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [0, 0, W, B, 0, 0, 0, 0]
+1 [B, 0, 0, W, 0, 0, 0, 0]
+2 [0, B, W, B, W, B, 0, 0]
+3 [0, 0, W, W, B, W, 0, 0]
+4 [B, W, W, B, B, 0, 0, 0]
+5 [B, W, W, 0, 0, 0, 0, 0]
+6 [B, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:11, B:11
+Human Move:0,1
+   0  1  2  3  4  5  6  7
+0 [0, B, B, B, 0, 0, 0, 0]
+1 [B, 0, 0, W, 0, 0, 0, 0]
+2 [0, B, W, B, W, B, 0, 0]
+3 [0, 0, W, W, B, W, 0, 0]
+4 [B, W, W, B, B, 0, 0, 0]
+5 [B, W, W, 0, 0, 0, 0, 0]
+6 [B, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:10, B:13
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [0, B, B, B, 0, 0, 0, 0]
+1 [B, 0, 0, W, W, 0, 0, 0]
+2 [0, B, W, W, W, B, 0, 0]
+3 [0, 0, W, W, B, W, 0, 0]
+4 [B, W, W, B, B, 0, 0, 0]
+5 [B, W, W, 0, 0, 0, 0, 0]
+6 [B, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:12, B:12
+Human Move:1,1
+   0  1  2  3  4  5  6  7
+0 [0, B, B, B, 0, 0, 0, 0]
+1 [B, B, 0, W, W, 0, 0, 0]
+2 [0, B, B, W, W, B, 0, 0]
+3 [0, 0, W, B, B, W, 0, 0]
+4 [B, W, W, B, B, 0, 0, 0]
+5 [B, W, W, 0, 0, 0, 0, 0]
+6 [B, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:10, B:15
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [0, B, B, B, 0, 0, 0, 0]
+1 [B, B, 0, W, W, 0, 0, 0]
+2 [W, W, W, W, W, B, 0, 0]
+3 [0, 0, W, B, B, W, 0, 0]
+4 [B, W, W, B, B, 0, 0, 0]
+5 [B, W, W, 0, 0, 0, 0, 0]
+6 [B, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:13, B:13
+Human Move:0,5
+   0  1  2  3  4  5  6  7
+0 [0, B, B, B, 0, B, 0, 0]
+1 [B, B, 0, W, B, 0, 0, 0]
+2 [W, W, W, B, W, B, 0, 0]
+3 [0, 0, B, B, B, W, 0, 0]
+4 [B, B, W, B, B, 0, 0, 0]
+5 [B, W, W, 0, 0, 0, 0, 0]
+6 [B, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:9, B:18
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [0, B, B, B, 0, B, 0, 0]
+1 [B, B, 0, W, B, 0, 0, 0]
+2 [W, W, W, B, W, B, 0, 0]
+3 [W, 0, B, B, B, W, 0, 0]
+4 [B, W, W, B, B, 0, 0, 0]
+5 [B, W, W, 0, 0, 0, 0, 0]
+6 [B, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:11, B:17
+Human Move:1,2
+   0  1  2  3  4  5  6  7
+0 [0, B, B, B, 0, B, 0, 0]
+1 [B, B, B, B, B, 0, 0, 0]
+2 [W, W, B, B, W, B, 0, 0]
+3 [W, 0, B, B, B, W, 0, 0]
+4 [B, W, W, B, B, 0, 0, 0]
+5 [B, W, W, 0, 0, 0, 0, 0]
+6 [B, 0, 0, 0, 0, 0, 0, 0]
+7 [0, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:9, B:20
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [0, B, B, B, 0, B, 0, 0]
+1 [B, B, B, B, B, 0, 0, 0]
+2 [W, W, B, B, W, B, 0, 0]
+3 [W, 0, B, B, B, W, 0, 0]
+4 [W, W, W, B, B, 0, 0, 0]
+5 [W, W, W, 0, 0, 0, 0, 0]
+6 [W, 0, 0, 0, 0, 0, 0, 0]
+7 [W, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:13, B:17
+Human Move:1,6
+INVALID MOVE
+Human Move:1,5
+   0  1  2  3  4  5  6  7
+0 [0, B, B, B, 0, B, 0, 0]
+1 [B, B, B, B, B, B, 0, 0]
+2 [W, W, B, B, B, B, 0, 0]
+3 [W, 0, B, B, B, W, 0, 0]
+4 [W, W, W, B, B, 0, 0, 0]
+5 [W, W, W, 0, 0, 0, 0, 0]
+6 [W, 0, 0, 0, 0, 0, 0, 0]
+7 [W, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:12, B:19
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [0, B, B, B, 0, B, 0, 0]
+1 [B, B, B, B, B, B, 0, 0]
+2 [W, W, B, B, B, B, 0, 0]
+3 [W, W, W, W, W, W, 0, 0]
+4 [W, W, W, B, B, 0, 0, 0]
+5 [W, W, W, 0, 0, 0, 0, 0]
+6 [W, 0, 0, 0, 0, 0, 0, 0]
+7 [W, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:16, B:16
+Human Move:6,1
+   0  1  2  3  4  5  6  7
+0 [0, B, B, B, 0, B, 0, 0]
+1 [B, B, B, B, B, B, 0, 0]
+2 [W, B, B, B, B, B, 0, 0]
+3 [W, B, W, W, W, W, 0, 0]
+4 [W, B, W, B, B, 0, 0, 0]
+5 [W, B, B, 0, 0, 0, 0, 0]
+6 [W, B, 0, 0, 0, 0, 0, 0]
+7 [W, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:11, B:22
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [0, B, B, B, W, B, 0, 0]
+1 [B, B, B, W, W, B, 0, 0]
+2 [W, B, W, B, W, B, 0, 0]
+3 [W, W, W, W, W, W, 0, 0]
+4 [W, B, W, B, B, 0, 0, 0]
+5 [W, B, B, 0, 0, 0, 0, 0]
+6 [W, B, 0, 0, 0, 0, 0, 0]
+7 [W, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:17, B:17
+Human Move:4,5
+   0  1  2  3  4  5  6  7
+0 [0, B, B, B, W, B, 0, 0]
+1 [B, B, B, W, W, B, 0, 0]
+2 [W, B, W, B, W, B, 0, 0]
+3 [W, W, W, W, B, B, 0, 0]
+4 [W, B, W, B, B, B, 0, 0]
+5 [W, B, B, 0, 0, 0, 0, 0]
+6 [W, B, 0, 0, 0, 0, 0, 0]
+7 [W, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:15, B:20
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, B, 0, 0]
+1 [W, W, B, W, W, B, 0, 0]
+2 [W, B, W, B, W, B, 0, 0]
+3 [W, W, W, W, B, B, 0, 0]
+4 [W, B, W, B, B, B, 0, 0]
+5 [W, B, B, 0, 0, 0, 0, 0]
+6 [W, B, 0, 0, 0, 0, 0, 0]
+7 [W, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:21, B:15
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, 0]
+1 [W, W, B, W, W, W, 0, 0]
+2 [W, B, W, B, W, B, 0, 0]
+3 [W, W, W, W, B, B, 0, 0]
+4 [W, B, W, B, B, B, 0, 0]
+5 [W, B, B, 0, 0, 0, 0, 0]
+6 [W, B, 0, 0, 0, 0, 0, 0]
+7 [W, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:24, B:13
+Human Move:1,6
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, 0]
+1 [W, W, B, B, B, B, B, 0]
+2 [W, B, W, B, W, B, 0, 0]
+3 [W, W, W, W, B, B, 0, 0]
+4 [W, B, W, B, B, B, 0, 0]
+5 [W, B, B, 0, 0, 0, 0, 0]
+6 [W, B, 0, 0, 0, 0, 0, 0]
+7 [W, 0, 0, 0, 0, 0, 0, 0]
+    Score: W:21, B:17
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, 0]
+1 [W, W, B, B, B, B, B, 0]
+2 [W, B, W, B, W, B, 0, 0]
+3 [W, W, W, W, B, B, 0, 0]
+4 [W, W, W, B, B, B, 0, 0]
+5 [W, W, B, 0, 0, 0, 0, 0]
+6 [W, W, 0, 0, 0, 0, 0, 0]
+7 [W, W, 0, 0, 0, 0, 0, 0]
+    Score: W:25, B:14
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, 0]
+1 [W, W, B, B, B, B, B, 0]
+2 [W, B, W, B, W, B, 0, 0]
+3 [W, W, W, W, B, B, 0, 0]
+4 [W, W, W, B, B, B, 0, 0]
+5 [W, W, W, 0, 0, 0, 0, 0]
+6 [W, W, W, 0, 0, 0, 0, 0]
+7 [W, W, 0, 0, 0, 0, 0, 0]
+    Score: W:27, B:13
+Human Move:7,2
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, 0]
+1 [W, W, B, B, B, B, B, 0]
+2 [W, B, B, B, W, B, 0, 0]
+3 [W, W, B, W, B, B, 0, 0]
+4 [W, W, B, B, B, B, 0, 0]
+5 [W, W, B, 0, 0, 0, 0, 0]
+6 [W, W, B, 0, 0, 0, 0, 0]
+7 [W, W, B, 0, 0, 0, 0, 0]
+    Score: W:22, B:19
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, 0]
+1 [W, W, B, B, B, B, B, 0]
+2 [W, B, B, B, W, B, 0, 0]
+3 [W, W, B, W, B, B, 0, 0]
+4 [W, W, B, B, B, B, 0, 0]
+5 [W, W, W, 0, 0, 0, 0, 0]
+6 [W, W, W, W, 0, 0, 0, 0]
+7 [W, W, B, 0, 0, 0, 0, 0]
+    Score: W:25, B:17
+Human Move:5,4
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, 0]
+1 [W, W, B, B, B, B, B, 0]
+2 [W, B, B, B, W, B, 0, 0]
+3 [W, W, B, W, B, B, 0, 0]
+4 [W, W, B, B, B, B, 0, 0]
+5 [W, W, W, 0, B, 0, 0, 0]
+6 [W, W, W, B, 0, 0, 0, 0]
+7 [W, W, B, 0, 0, 0, 0, 0]
+    Score: W:24, B:19
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, 0]
+1 [W, W, B, B, B, B, B, 0]
+2 [W, B, B, B, W, B, 0, 0]
+3 [W, W, B, W, B, B, 0, 0]
+4 [W, W, W, W, B, B, 0, 0]
+5 [W, W, W, W, B, 0, 0, 0]
+6 [W, W, W, B, 0, 0, 0, 0]
+7 [W, W, B, 0, 0, 0, 0, 0]
+    Score: W:27, B:17
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, 0]
+1 [W, W, B, B, B, B, B, 0]
+2 [W, B, B, B, W, B, 0, 0]
+3 [W, W, B, W, B, B, 0, 0]
+4 [W, W, W, W, B, B, 0, 0]
+5 [W, W, W, W, B, 0, 0, 0]
+6 [W, W, W, W, 0, 0, 0, 0]
+7 [W, W, W, W, 0, 0, 0, 0]
+    Score: W:30, B:15
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, 0]
+1 [W, W, B, B, B, B, B, 0]
+2 [W, B, B, B, W, B, 0, 0]
+3 [W, W, B, W, B, B, 0, 0]
+4 [W, W, W, W, B, B, 0, 0]
+5 [W, W, W, W, W, 0, 0, 0]
+6 [W, W, W, W, 0, W, 0, 0]
+7 [W, W, W, W, 0, 0, 0, 0]
+    Score: W:32, B:14
+Human Move:7,6
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, 0]
+1 [W, W, B, B, B, B, B, 0]
+2 [W, B, B, B, W, B, 0, 0]
+3 [W, W, B, W, B, B, 0, 0]
+4 [W, W, W, B, B, B, 0, 0]
+5 [W, W, W, W, B, 0, 0, 0]
+6 [W, W, W, W, 0, B, 0, 0]
+7 [W, W, W, W, 0, 0, B, 0]
+    Score: W:29, B:18
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, W]
+1 [W, W, B, B, B, B, W, 0]
+2 [W, B, B, B, W, W, 0, 0]
+3 [W, W, B, W, W, B, 0, 0]
+4 [W, W, W, W, B, B, 0, 0]
+5 [W, W, W, W, B, 0, 0, 0]
+6 [W, W, W, W, 0, B, 0, 0]
+7 [W, W, W, W, 0, 0, B, 0]
+    Score: W:34, B:14
+Human Move:3,4
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, W]
+1 [W, W, B, B, B, B, W, 0]
+2 [W, B, B, B, B, W, 0, 0]
+3 [W, W, B, B, B, B, 0, 0]
+4 [W, W, W, W, B, B, 0, 0]
+5 [W, W, W, W, B, 0, 0, 0]
+6 [W, W, W, W, 0, B, 0, 0]
+7 [W, W, W, W, 0, 0, B, 0]
+    Score: W:31, B:17
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, W]
+1 [W, W, B, B, W, B, W, 0]
+2 [W, B, B, B, W, W, 0, 0]
+3 [W, W, B, B, W, B, 0, 0]
+4 [W, W, W, W, W, B, 0, 0]
+5 [W, W, W, W, W, 0, 0, 0]
+6 [W, W, W, W, W, B, 0, 0]
+7 [W, W, W, W, 0, 0, B, 0]
+    Score: W:37, B:12
+Human Move:1,7
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, W]
+1 [W, W, B, B, W, B, B, B]
+2 [W, B, B, B, W, W, 0, 0]
+3 [W, W, B, B, W, B, 0, 0]
+4 [W, W, W, W, W, B, 0, 0]
+5 [W, W, W, W, W, 0, 0, 0]
+6 [W, W, W, W, W, B, 0, 0]
+7 [W, W, W, W, 0, 0, B, 0]
+    Score: W:36, B:14
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, W]
+1 [W, W, B, B, W, B, W, W]
+2 [W, B, B, B, W, W, 0, W]
+3 [W, W, B, B, W, B, 0, 0]
+4 [W, W, W, W, W, B, 0, 0]
+5 [W, W, W, W, W, 0, 0, 0]
+6 [W, W, W, W, W, B, 0, 0]
+7 [W, W, W, W, 0, 0, B, 0]
+    Score: W:39, B:12
+Human Move:2,6
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, W]
+1 [W, W, B, B, W, B, W, W]
+2 [W, B, B, B, B, B, B, W]
+3 [W, W, B, B, W, B, 0, 0]
+4 [W, W, W, W, W, B, 0, 0]
+5 [W, W, W, W, W, 0, 0, 0]
+6 [W, W, W, W, W, B, 0, 0]
+7 [W, W, W, W, 0, 0, B, 0]
+    Score: W:37, B:15
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, W]
+1 [W, W, B, B, W, W, W, W]
+2 [W, B, B, B, B, B, W, W]
+3 [W, W, B, B, W, B, 0, W]
+4 [W, W, W, W, W, B, 0, 0]
+5 [W, W, W, W, W, 0, 0, 0]
+6 [W, W, W, W, W, B, 0, 0]
+7 [W, W, W, W, 0, 0, B, 0]
+    Score: W:40, B:13
+Human Move:7,4
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, W]
+1 [W, W, B, B, W, W, W, W]
+2 [W, B, B, B, B, B, W, W]
+3 [W, W, B, B, B, B, 0, W]
+4 [W, W, W, W, B, B, 0, 0]
+5 [W, W, W, W, B, 0, 0, 0]
+6 [W, W, W, W, B, B, 0, 0]
+7 [W, W, W, W, B, 0, B, 0]
+    Score: W:36, B:18
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, W]
+1 [W, W, B, B, W, W, W, W]
+2 [W, B, B, B, B, B, W, W]
+3 [W, W, B, B, B, B, 0, W]
+4 [W, W, W, W, B, B, 0, 0]
+5 [W, W, W, W, B, 0, 0, 0]
+6 [W, W, W, W, W, W, W, 0]
+7 [W, W, W, W, B, 0, B, 0]
+    Score: W:39, B:16
+Human Move:5,6
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, W]
+1 [W, W, B, B, W, W, W, W]
+2 [W, B, B, B, B, B, W, W]
+3 [W, W, B, B, B, B, 0, W]
+4 [W, W, W, W, B, B, 0, 0]
+5 [W, W, W, W, B, 0, B, 0]
+6 [W, W, W, W, W, B, B, 0]
+7 [W, W, W, W, B, 0, B, 0]
+    Score: W:37, B:19
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, W]
+1 [W, W, B, B, W, W, W, W]
+2 [W, B, B, B, B, W, W, W]
+3 [W, W, W, W, W, W, W, W]
+4 [W, W, W, W, B, W, 0, 0]
+5 [W, W, W, W, W, 0, B, 0]
+6 [W, W, W, W, W, B, B, 0]
+7 [W, W, W, W, B, 0, B, 0]
+    Score: W:45, B:12
+Human Move:4,6
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, W]
+1 [W, W, B, B, W, W, W, W]
+2 [W, B, B, B, B, W, W, W]
+3 [W, W, W, W, W, B, W, W]
+4 [W, W, W, W, B, B, B, 0]
+5 [W, W, W, W, W, 0, B, 0]
+6 [W, W, W, W, W, B, B, 0]
+7 [W, W, W, W, B, 0, B, 0]
+    Score: W:43, B:15
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, W]
+1 [W, W, B, B, W, W, W, W]
+2 [W, B, B, B, B, W, W, W]
+3 [W, W, W, W, W, W, W, W]
+4 [W, W, W, W, W, W, W, 0]
+5 [W, W, W, W, W, W, B, 0]
+6 [W, W, W, W, W, B, B, 0]
+7 [W, W, W, W, B, 0, B, 0]
+    Score: W:48, B:11
+Human Move:5,7
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, W]
+1 [W, W, B, B, W, W, W, W]
+2 [W, B, B, B, B, W, W, W]
+3 [W, W, W, W, W, B, W, W]
+4 [W, W, W, W, W, W, B, 0]
+5 [W, W, W, W, W, W, B, B]
+6 [W, W, W, W, W, B, B, 0]
+7 [W, W, W, W, B, 0, B, 0]
+    Score: W:46, B:14
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, W]
+1 [W, W, B, B, W, W, W, W]
+2 [W, B, B, B, B, W, W, W]
+3 [W, W, W, W, W, B, W, W]
+4 [W, W, W, W, W, W, W, W]
+5 [W, W, W, W, W, W, B, B]
+6 [W, W, W, W, W, B, B, 0]
+7 [W, W, W, W, B, 0, B, 0]
+    Score: W:48, B:13
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, W]
+1 [W, W, B, B, W, W, W, W]
+2 [W, B, B, B, B, W, W, W]
+3 [W, W, W, W, W, B, W, W]
+4 [W, W, W, W, W, W, W, W]
+5 [W, W, W, W, W, W, W, W]
+6 [W, W, W, W, W, W, W, W]
+7 [W, W, W, W, B, 0, B, 0]
+    Score: W:53, B:9
+Human Move:7,7
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, W]
+1 [W, W, B, B, W, W, W, W]
+2 [W, B, B, B, B, W, W, W]
+3 [W, W, W, B, W, B, W, W]
+4 [W, W, W, W, B, W, W, W]
+5 [W, W, W, W, W, B, W, W]
+6 [W, W, W, W, W, W, B, W]
+7 [W, W, W, W, B, 0, B, B]
+    Score: W:49, B:14
+Next Move
+Searching
+   0  1  2  3  4  5  6  7
+0 [W, W, W, W, W, W, W, W]
+1 [W, W, B, B, W, W, W, W]
+2 [W, B, B, B, B, W, W, W]
+3 [W, W, W, B, W, B, W, W]
+4 [W, W, W, W, B, W, W, W]
+5 [W, W, W, W, W, B, W, W]
+6 [W, W, W, W, W, W, W, W]
+7 [W, W, W, W, W, W, B, B]
+    Score: W:52, B:12
+Game Over!
+
+Process finished with exit code 0
